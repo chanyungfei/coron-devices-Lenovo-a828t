@@ -1,4 +1,4 @@
-.class final enum Landroid/view/VolumePanel$StreamResources;
+.class public final enum Landroid/view/VolumePanel$StreamResources;
 .super Ljava/lang/Enum;
 .source "VolumePanel.java"
 
@@ -9,7 +9,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x401a
+    accessFlags = 0x401c
     name = "StreamResources"
 .end annotation
 
@@ -79,11 +79,11 @@
 
     const/4 v3, 0x6
 
-    const v4, 0x1040403
+    const v4, #android:string@volume_icon_description_bluetooth#t
 
-    const v5, 0x10802c2
+    const v5, #android:drawable@ic_audio_bt#t
 
-    const v6, 0x10802c2
+    const v6, #android:drawable@ic_audio_bt#t
 
     move v7, v2
 
@@ -96,11 +96,11 @@
 
     const-string v4, "RingerStream"
 
-    const v7, 0x1040404
+    const v7, #android:string@volume_icon_description_ringer#t
 
-    const v8, 0x10802c8
+    const v8, #android:drawable@ic_audio_ring_notif#t
 
-    const v9, 0x10802c9
+    const v9, #android:drawable@ic_audio_ring_notif_mute#t
 
     move v5, v11
 
@@ -117,11 +117,11 @@
 
     const-string v4, "VoiceStream"
 
-    const v7, 0x1040405
+    const v7, #android:string@volume_icon_description_incall#t
 
-    const v8, 0x10802c7
+    const v8, #android:drawable@ic_audio_phone#t
 
-    const v9, 0x10802c7
+    const v9, #android:drawable@ic_audio_phone#t
 
     move v5, v12
 
@@ -140,11 +140,11 @@
 
     const/16 v6, 0xa
 
-    const v7, 0x10403ff
+    const v7, #android:string@volume_fm#t
 
-    const v8, 0x10802c4
+    const v8, #android:drawable@ic_audio_fm#t
 
-    const v9, 0x10802c4
+    const v9, #android:drawable@ic_audio_fm#t
 
     move v5, v13
 
@@ -159,11 +159,11 @@
 
     const-string v4, "AlarmStream"
 
-    const v7, 0x1040400
+    const v7, #android:string@volume_alarm#t
 
-    const v8, 0x10802c0
+    const v8, #android:drawable@ic_audio_alarm#t
 
-    const v9, 0x10802c1
+    const v9, #android:drawable@ic_audio_alarm_mute#t
 
     move v5, v14
 
@@ -182,11 +182,11 @@
 
     const/4 v5, 0x5
 
-    const v7, 0x1040406
+    const v7, #android:string@volume_icon_description_media#t
 
-    const v8, 0x10802cb
+    const v8, #android:drawable@ic_audio_vol#t
 
-    const v9, 0x10802cc
+    const v9, #android:drawable@ic_audio_vol_mute#t
 
     move v6, v13
 
@@ -205,11 +205,11 @@
 
     const/4 v6, 0x5
 
-    const v7, 0x1040407
+    const v7, #android:string@volume_icon_description_notification#t
 
-    const v8, 0x10802c5
+    const v8, #android:drawable@ic_audio_notification#t
 
-    const v9, 0x10802c6
+    const v9, #android:drawable@ic_audio_notification_mute#t
 
     move v10, v11
 
@@ -226,11 +226,11 @@
 
     const/16 v6, -0x64
 
-    const v7, 0x1040406
+    const v7, #android:string@volume_icon_description_media#t
 
-    const v8, 0x10802cb
+    const v8, #android:drawable@ic_audio_vol#t
 
-    const v9, 0x10802cc
+    const v9, #android:drawable@ic_audio_vol_mute#t
 
     move v10, v2
 
@@ -247,11 +247,11 @@
 
     const/16 v6, -0xc8
 
-    const v7, 0x1040406
+    const v7, #android:string@volume_icon_description_media#t
 
-    const v8, 0x1080348
+    const v8, #android:drawable@ic_media_route_on_holo_dark#t
 
-    const v9, 0x108033c
+    const v9, #android:drawable@ic_media_route_disabled_holo_dark#t
 
     move v10, v2
 

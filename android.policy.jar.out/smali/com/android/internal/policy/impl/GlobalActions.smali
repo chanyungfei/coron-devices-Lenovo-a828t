@@ -10,6 +10,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/android/internal/policy/impl/GlobalActions$BaiduInjector;,
         Lcom/android/internal/policy/impl/GlobalActions$GlobalActionsDialog;,
         Lcom/android/internal/policy/impl/GlobalActions$ProfileAction;,
         Lcom/android/internal/policy/impl/GlobalActions$SilentModeTriStateAction;,
@@ -672,7 +673,7 @@
     :goto_3
     new-instance v0, Lcom/android/internal/policy/impl/GlobalActions$7;
 
-    const v2, 0x1080354
+    const v2, #android:drawable@ic_menu_cc#t
 
     new-instance v4, Ljava/lang/StringBuilder;
 
@@ -923,15 +924,15 @@
     :goto_0
     new-instance v0, Lcom/android/internal/policy/impl/GlobalActions$1;
 
-    const v2, 0x1080303
+    const v2, #android:drawable@ic_lock_airplane_mode#t
 
-    const v3, 0x1080304
+    const v3, #android:drawable@ic_lock_airplane_mode_off#t
 
-    const v4, 0x10400f2
+    const v4, #android:string@global_actions_toggle_airplane_mode#t
 
-    const v5, 0x10400f3
+    const v5, #android:string@global_actions_airplane_mode_on_status#t
 
-    const v6, 0x10400f4
+    const v6, #android:string@global_actions_airplane_mode_off_status#t
 
     move-object v1, p0
 
@@ -954,35 +955,37 @@
 
     new-instance v1, Lcom/android/internal/policy/impl/GlobalActions$2;
 
-    const v2, 0x1080030
+    const v2, #android:drawable@ic_lock_power_off#t
 
-    const v3, 0x10400ea
+    const v3, #android:string@global_action_power_off#t
 
     invoke-direct {v1, p0, v2, v3}, Lcom/android/internal/policy/impl/GlobalActions$2;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    invoke-static/range {p0 .. p0}, Lcom/android/internal/policy/impl/GlobalActions$BaiduInjector;->addRebootMenu(Lcom/android/internal/policy/impl/GlobalActions;)V
+
+    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
+
+    new-instance v1, Lcom/android/internal/policy/impl/GlobalActions$3;
+
+    const v2, #android:drawable@ic_lock_power_reboot#t
+
+    const v3, #android:string@global_action_reboot#t
+
+    invoke-direct {v1, p0, v2, v3}, Lcom/android/internal/policy/impl/GlobalActions$3;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 323
     iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
 
-    new-instance v1, Lcom/android/internal/policy/impl/GlobalActions$3;
-
-    const v2, 0x10800cf
-
-    const v3, 0x10400eb
-
-    invoke-direct {v1, p0, v2, v3}, Lcom/android/internal/policy/impl/GlobalActions$3;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
-
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 350
-    iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mItems:Ljava/util/ArrayList;
-
     iget-object v1, p0, Lcom/android/internal/policy/impl/GlobalActions;->mAirplaneModeOn:Lcom/android/internal/policy/impl/GlobalActions$ToggleAction;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 353
+    invoke-static/range {p0 .. p0}, Lcom/android/internal/policy/impl/GlobalActions$BaiduInjector;->addScreenShotMenu(Lcom/android/internal/policy/impl/GlobalActions;)V
+
     iget-object v0, p0, Lcom/android/internal/policy/impl/GlobalActions;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
@@ -1002,9 +1005,9 @@
 
     new-instance v1, Lcom/android/internal/policy/impl/GlobalActions$4;
 
-    const v2, 0x1080558
+    const v2, #android:drawable@stat_sys_adb#t
 
-    const v3, 0x10400ec
+    const v3, #android:string@global_action_bug_report#t
 
     invoke-direct {v1, p0, v2, v3}, Lcom/android/internal/policy/impl/GlobalActions$4;-><init>(Lcom/android/internal/policy/impl/GlobalActions;II)V
 
