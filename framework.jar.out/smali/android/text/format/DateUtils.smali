@@ -2660,6 +2660,125 @@
     return-object v0
 .end method
 
+.method public static formatDuration(J)Ljava/lang/CharSequence;
+    .locals 12
+    .parameter "millis"
+
+    .prologue
+    const-wide/32 v10, 0x36ee80
+
+    const-wide/32 v6, 0xea60
+
+    const/4 v9, 0x1
+
+    const/4 v8, 0x0
+
+    .line 617
+    invoke-static {}, Landroid/content/res/Resources;->getSystem()Landroid/content/res/Resources;
+
+    move-result-object v2
+
+    .line 618
+    .local v2, res:Landroid/content/res/Resources;
+    cmp-long v4, p0, v10
+
+    if-ltz v4, :cond_0
+
+    .line 619
+    const-wide/32 v4, 0x1b7740
+
+    add-long/2addr v4, p0
+
+    div-long/2addr v4, v10
+
+    long-to-int v0, v4
+
+    .line 620
+    .local v0, hours:I
+    const v4, 0x1130013
+
+    new-array v5, v9, [Ljava/lang/Object;
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v6
+
+    aput-object v6, v5, v8
+
+    invoke-virtual {v2, v4, v0, v5}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v4
+
+    .line 628
+    .end local v0           #hours:I
+    :goto_0
+    return-object v4
+
+    .line 622
+    :cond_0
+    cmp-long v4, p0, v6
+
+    if-ltz v4, :cond_1
+
+    .line 623
+    const-wide/16 v4, 0x7530
+
+    add-long/2addr v4, p0
+
+    div-long/2addr v4, v6
+
+    long-to-int v1, v4
+
+    .line 624
+    .local v1, minutes:I
+    const v4, 0x1130012
+
+    new-array v5, v9, [Ljava/lang/Object;
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v6
+
+    aput-object v6, v5, v8
+
+    invoke-virtual {v2, v4, v1, v5}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v4
+
+    goto :goto_0
+
+    .line 627
+    .end local v1           #minutes:I
+    :cond_1
+    const-wide/16 v4, 0x1f4
+
+    add-long/2addr v4, p0
+
+    const-wide/16 v6, 0x3e8
+
+    div-long/2addr v4, v6
+
+    long-to-int v3, v4
+
+    .line 628
+    .local v3, seconds:I
+    const v4, 0x1130011
+
+    new-array v5, v9, [Ljava/lang/Object;
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v6
+
+    aput-object v6, v5, v8
+
+    invoke-virtual {v2, v4, v3, v5}, Landroid/content/res/Resources;->getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v4
+
+    goto :goto_0
+.end method
+
 .method public static formatElapsedTime(J)Ljava/lang/String;
     .locals 1
     .parameter "elapsedSeconds"
