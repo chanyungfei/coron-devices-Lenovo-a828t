@@ -1,0 +1,1416 @@
+<?xml version="1.0"?>
+<MarvellAudioCoeffConfiguration>
+    <AudioPath identifier="HiFiPlayToSPKR" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x4 -->
+                <Value>0x04</Value>
+                <!-- HiFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0xC -->
+                <Value>0x0D</Value>
+                <!-- HiFi2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="HiFiPlayToHP" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x8 -->
+                <Value>0x04</Value>
+                <!-- HiFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x18 -->
+                <Value>0x0D</Value>
+                <!-- HiFi2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="HiFiPlayToSPKRAndHP" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x8 -->
+                <Value>0x04</Value>
+                <!-- HiFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x18 -->
+                <Value>0x0D</Value>
+                <!-- HiFi2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="HiFiPlayToEarphone" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x8 -->
+                <Value>0x04</Value>
+                <!-- HiFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x18 -->
+                <Value>0x0D</Value>
+                <!-- HiFi2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="VoicePlayToEarphone" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH1 start addree = 0x0 -->
+                <Value>0x02</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH3 start addree = 0x10 -->
+                <Value>0x0A</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="VoicePlayToSPKR" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH1 start addree = 0x0 -->
+                <Value>0x02</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH3 start addree = 0x10 -->
+                <Value>0x0A</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="VoicePlayToHP" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH1 start addree = 0x0 -->
+                <Value>0x02</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH3 start addree = 0x10 -->
+                <Value>0x0A</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToHPI2S" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH1 start addree = 0x0 -->
+                <Value>0x02</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH3 start addree = 0x10 -->
+                <Value>0x0B</Value>
+                <!-- LoFi2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToHPI2S" component="ELBA" operation="DISABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH3 start addree = 0x10 -->
+                <Value>0x0B</Value>
+                <!-- LoFi2 -->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToSPKRI2S" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH1 start addree = 0x0 -->
+                <Value>0x02</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH3 start addree = 0x10 -->
+                <Value>0x0B</Value>
+                <!-- LoFi2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToSPKRI2S" component="ELBA" operation="DISABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH3 start addree = 0x10 -->
+                <Value>0x0B</Value>
+                <!-- LoFi2 -->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToHPAnalog" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x8 -->
+                <Value>0x06</Value>
+                <!-- DWS1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x18 -->
+                <Value>0x0f</Value>
+                <!-- DWS2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToHPAnalog" component="ELBA" operation="DISABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x8 -->
+                <Value>0x06</Value>
+                <!-- DWS1 -->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x18 -->
+                <Value>0x0f</Value>
+                <!-- DWS2 -->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToSPKRAnalog" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x8 -->
+                <Value>0x06</Value>
+                <!-- DWS1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x18 -->
+                <Value>0x0f</Value>
+                <!-- DWS2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToSPKRAnalog" component="ELBA" operation="DISABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x8 -->
+                <Value>0x06</Value>
+                <!-- DWS1 -->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x18 -->
+                <Value>0x0f</Value>
+                <!-- DWS2 -->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="HiFiPlayToStereoSPKR" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x4 -->
+                <Value>0x04</Value>
+                <!-- HiFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x0C -->
+                <Value>0x0D</Value>
+                <!-- HiFi2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="HiFiPlayToStereoSPKRAndHP" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x8 -->
+                <Value>0x04</Value>
+                <!-- HiFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x18 -->
+                <Value>0x0D</Value>
+                <!-- HiFi2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="VoicePlayToStereoSPKR" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH1 start addree = 0x0 -->
+                <Value>0x02</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH3 start addree = 0x10 -->
+                <Value>0x0A</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToStereoSPKRI2S" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH1 start addree = 0x0 -->
+                <Value>0x02</Value>
+                <!-- LoFi1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH3 start addree = 0x10 -->
+                <Value>0x0B</Value>
+                <!-- LoFi2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToStereoSPKRI2S" component="ELBA" operation="DISABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH3 start addree = 0x10 -->
+                <Value>0x0B</Value>
+                <!-- LoFi2 -->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToStereoSPKRAnalog" component="ELBA" operation="ENABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x8 -->
+                <Value>0x06</Value>
+                <!-- DWS1 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x18 -->
+                <Value>0x0f</Value>
+                <!-- DWS2 -->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX2 CH1 start addree = 0x20 -->
+                <Value>0x10</Value>
+                <!-- MIX2 CH1 EQ_ch1/EQ_ch2-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH3 EQ_ch3/EQ_ch4-->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX2 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <!-- MIX4 CH2 EQ-ch1/EQ-ch2/EQ-ch3/EQ-ch4-->
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+                <Value>0x80</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <AudioPath identifier="FMPlayToStereoSPKRAnalog" component="ELBA" operation="DISABLE">
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH2 start addree = 0x8 -->
+                <Value>0x06</Value>
+                <!-- DWS1 -->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+            </Coeff>
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+                <!-- MIX1 CH4 start addree = 0x18 -->
+                <Value>0x0f</Value>
+                <!-- DWS2 -->
+                <Value>0x00</Value>
+                <Value>0x00</Value>
+            </Coeff>
+    </AudioPath>
+    <Equalizer component="ELBA" control_protocol="I2C">
+            <!-- Register 0x5b EQ1-BAND1 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="00010"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ1-BAND2 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="00011"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ1-BAND3 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="00100"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ1-BAND4 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="00101"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ1-BAND5 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="00110"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ2-BAND1 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="00111"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ2-BAND2 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="01000"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ2-BAND3 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="01001"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ2-BAND4 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="01010"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ2-BAND5 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="01011"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ3-BAND1 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="01100"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ3-BAND2 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="01101"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ3-BAND3 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="01110"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ3-BAND4 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="01111"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ3-BAND5 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="10000"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ4-BAND1 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="10001"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ4-BAND2 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="10010"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ1-BAND3 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="10011"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ4-BAND4 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="10100"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+            <!-- Register 0x5b EQ4-BAND5 -->
+            <Coeff name="COEFFICIENT_MEMORY_ACCESS">
+            <Register field="COEFF_FILT_ADDR[4:0]" value="10101"/>
+                <Value>0x00</Value>
+                <!-- coeff 1 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 2 -->
+                <Value>0xE0</Value>
+                <Value>0x00</Value>
+                <!-- coeff 3 -->
+                <Value>0x10</Value>
+                <Value>0x00</Value>
+                <!-- coeff 4 -->
+                <Value>0x20</Value>
+                <Value>0x00</Value>
+                <!-- coeff 5 -->
+                <Value>0xF0</Value>
+                <Value>0x00</Value>
+            <Register field="COEFF_CACHE2BIQUAD" value="0"/>
+            <Register field="COEFF_CACHE2BIQUAD" value="1"/>
+            </Coeff>
+    </Equalizer>
+</MarvellAudioCoeffConfiguration>

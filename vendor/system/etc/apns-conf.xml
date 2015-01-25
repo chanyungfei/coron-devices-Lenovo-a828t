@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<apns version="7">
+    <!-- China Mobile -->
+    <apn mcc="460" mnc="00" carrier="CMNET" apn="cmnet" user="" server="" password="" proxy="" port=""
+        mmsproxy="" mmsport="" mmsc="" type="default,internet,supl"/>
+
+    <apn mcc="460" mnc="00" carrier="CMWAP" apn="cmwap" user="" server="http://wap.monternet.com" password="" proxy="10.0.0.172" port="80"
+        mmsproxy="10.0.0.172" mmsport="80" mmsc="http://mmsc.monternet.com" type="default,wap,mms,supl"/>
+
+    <apn mcc="460" mnc="00" carrier="CMCC MAIL" apn="cmmail" user="" server="" password="" proxy="" port=""
+        mmsproxy="" mmsport="" mmsc="" type="cmmail"/>
+
+    <apn mcc="460" mnc="00" carrier="CMCC DM" apn="cmwap" user="" server="http://wap.monternet.com" password="" proxy="10.0.0.172" port="80"
+        mmsproxy="" mmsport="" mmsc="" type="dm"/>
+
+    <apn mcc="460" mnc="00" carrier="CMCC MM" apn="cmmm" user="" server="" password="" proxy="" port=""
+        mmsproxy="" mmsport="" mmsc="" type="cmmm"/>
+
+    <apn mcc="460" mnc="00" carrier="Streaming"	apn="cmwap" user="" server="" password="" proxy="10.0.0.172" port="80"
+        mmsproxy="" mmsport="" mmsc="" type="streaming" visible ="1" preloaded ="1"/>
+
+    <apn carrier="CMSUPL" apn="cmnet" mcc="460" mnc="00" proxy="" port="" user="" server="" password="" mmsc="" type="supl"/>
+
+    <!-- China Unicom WO & 2G-->
+    <apn mcc="460" mnc="01" carrier="UNICOM NET" apn="3gnet" user="" server="" password="" proxy="" port=""
+        mmsproxy="" mmsport="" mmsc="" type="default,internet,supl"/>
+
+    <apn mcc="460" mnc="01" carrier="UNICOM WAP MMS" apn="3gwap" user="" server="*" password="" proxy="10.0.0.172" port="80"
+        mmsproxy="10.0.0.172" mmsport="80" mmsc="http://mmsc.myuni.com.cn" type="default,wap,mms,supl"/>
+
+    <!-- China Mobile -->
+    <apn mcc="460" mnc="02" carrier="CMNET" apn="cmnet" user="" server="" password="" proxy="" port=""
+        mmsproxy="" mmsport="" mmsc="" type="default,internet,supl"/>
+
+    <apn mcc="460" mnc="02" carrier="CMWAP" apn="cmwap" user="" server="http://wap.monternet.com" password="" proxy="10.0.0.172" port="80"
+        mmsproxy="10.0.0.172" mmsport="80" mmsc="http://mmsc.monternet.com" type="default,wap,mms,supl"/>
+
+    <apn mcc="460" mnc="02" carrier="CMCC MAIL" apn="cmmail" user="" server="" password="" proxy="" port=""
+        mmsproxy="" mmsport="" mmsc="" type="cmmail"/>
+
+    <apn mcc="460" mnc="02" carrier="CMCC DM" apn="cmwap" user="" server="http://wap.monternet.com" password="" proxy="10.0.0.172" port="80"
+        mmsproxy="" mmsport="" mmsc="" type="dm"/>
+
+    <apn mcc="460" mnc="02" carrier="CMCC MM" apn="cmmm" user="" server="" password="" proxy="" port=""
+        mmsproxy="" mmsport="" mmsc="" type="cmmm"/>
+
+    <apn mcc="460" mnc="02" carrier="Streaming"	apn="cmwap" user="" server="" password="" proxy="10.0.0.172" port="80"
+        mmsproxy="" mmsport="" mmsc="" type="streaming" visible ="1" preloaded ="1"/>
+
+    <apn carrier="CMSUPL" apn="cmnet" mcc="460" mnc="02" proxy="" port="" user="" server="" password="" mmsc="" type="supl"/>
+
+    <!-- China Mobile -->
+    <apn mcc="460" mnc="07" carrier="CMNET" apn="cmnet" user="" server="" password="" proxy="" port=""
+        mmsproxy="" mmsport="" mmsc="" type="default,internet,supl"/>
+
+    <apn mcc="460" mnc="07" carrier="CMWAP" apn="cmwap" user="" server="http://wap.monternet.com" password="" proxy="10.0.0.172" port="80"
+        mmsproxy="10.0.0.172" mmsport="80" mmsc="http://mmsc.monternet.com" type="default,wap,mms,supl"/>
+
+    <apn mcc="460" mnc="07" carrier="CMCC MAIL" apn="cmmail" user="" server="" password="" proxy="" port=""
+        mmsproxy="" mmsport="" mmsc="" type="cmmail"/>
+
+    <apn mcc="460" mnc="07" carrier="CMCC DM" apn="cmwap" user="" server="http://wap.monternet.com" password="" proxy="10.0.0.172" port="80"
+        mmsproxy="" mmsport="" mmsc="" type="dm"/>
+
+    <apn mcc="460" mnc="07" carrier="CMCC MM" apn="cmmm" user="" server="" password="" proxy="" port=""
+        mmsproxy="" mmsport="" mmsc="" type="cmmm"/>
+
+    <apn mcc="460" mnc="07" carrier="Streaming"	apn="cmwap" user="" server="" password="" proxy="10.0.0.172" port="80"
+        mmsproxy="" mmsport="" mmsc="" type="streaming" visible ="1" preloaded ="1"/>
+
+    <apn carrier="CMSUPL" apn="cmnet" mcc="460" mnc="07" proxy="" port="" user="" server="" password="" mmsc="" type="supl"/>
+
+    <apn carrier="CMNET" apn="labwap3" mcc="460" mnc="03" proxy="192.168.230.8" port="9028"
+        user="" server="" password="" mmsc="" type="default,internet,supl"/>
+
+    <apn carrier="CMWAP" apn="labwap3" mcc="460" mnc="03" proxy="192.168.230.8" port="9028" user="" server="http://wap.monternet.com"
+        password="" mmsc="http://218.206.176.175:8181/was" mmsproxy="192.168.230.8" mmsport="9028" type="default,mms,wap"/>
+
+    <apn carrier="CMSUPL" apn="labwap3" mcc="460" mnc="03" proxy="192.168.230.8" port="9028" user="" server="" password="" mmsc="" type="supl"/>
+
+    <apn carrier="CMNET" apn="labwap3" mcc="460" mnc="04" proxy="192.168.230.8" port="9028"
+        user="" server="" password="" mmsc="" type="default,internet,supl"/>
+
+    <apn carrier="CMWAP" apn="labwap3" mcc="460" mnc="04" proxy="192.168.230.8" port="9028" user="" server="http://wap.monternet.com"
+        password="" mmsc="http://218.206.176.175:8181/was" mmsproxy="192.168.230.8" mmsport="9028" type="default,mms,wap"/>
+
+    <apn carrier="CMSUPL" apn="labwap3" mcc="460" mnc="04" proxy="192.168.230.8" port="9028" user="" server="" password="" mmsc="" type="supl"/>
+</apns>

@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<AudioEffectConfiguration>
+    <AudioEffect name="EQ" on="true" device="AUDIO_DEVICE_OUT_SPEAKER" sampleRate="44100">
+        <band desc="band2" on="true">
+            <Parameter>18539</Parameter>
+            <Parameter>-3771</Parameter>
+            <Parameter>192</Parameter>
+            <Parameter>14</Parameter>
+            <Parameter>-1457</Parameter>
+            <Parameter>32</Parameter>
+        </band>
+        <band desc="band3" on="true">
+            <Parameter>18539</Parameter>
+            <Parameter>-3771</Parameter>
+            <Parameter>192</Parameter>
+            <Parameter>14</Parameter>
+            <Parameter>-1457</Parameter>
+            <Parameter>32</Parameter>
+        </band>
+        <band desc="band4" on="true">
+            <Parameter>18539</Parameter>
+            <Parameter>-3771</Parameter>
+            <Parameter>192</Parameter>
+            <Parameter>14</Parameter>
+            <Parameter>-1457</Parameter>
+            <Parameter>32</Parameter>
+        </band>
+        <band desc="band5" on="true">
+            <Parameter>18539</Parameter>
+            <Parameter>-3771</Parameter>
+            <Parameter>192</Parameter>
+            <Parameter>14</Parameter>
+            <Parameter>-1457</Parameter>
+            <Parameter>32</Parameter>
+        </band>
+        <band desc="band6" on="true">
+            <Parameter>18539</Parameter>
+            <Parameter>-3771</Parameter>
+            <Parameter>192</Parameter>
+            <Parameter>14</Parameter>
+            <Parameter>-1457</Parameter>
+            <Parameter>32</Parameter>
+        </band>
+        <band desc="band7" on="true">
+            <Parameter>18539</Parameter>
+            <Parameter>-3771</Parameter>
+            <Parameter>192</Parameter>
+            <Parameter>14</Parameter>
+            <Parameter>-1457</Parameter>
+            <Parameter>32</Parameter>
+        </band>
+        <band desc="band8" on="true">
+            <Parameter>18539</Parameter>
+            <Parameter>-3771</Parameter>
+            <Parameter>192</Parameter>
+            <Parameter>14</Parameter>
+            <Parameter>-1457</Parameter>
+            <Parameter>32</Parameter>
+        </band>
+        <band desc="band1" on="true">
+            <Parameter>15104</Parameter>
+            <Parameter>-30208</Parameter>
+            <Parameter>15104</Parameter>
+            <Parameter>14</Parameter>
+            <Parameter>-30109</Parameter>
+            <Parameter>13922</Parameter>
+        </band>
+    </AudioEffect>
+    <AudioEffect name="AGC" on="false" device="AUDIO_DEVICE_OUT_SPEAKER">
+        <Level value="0" />
+        <MaxRMS value="-5102" />
+        <MinEnvelope value="-7824" />
+    </AudioEffect>
+    <AudioEffect name="DRC" device="AUDIO_DEVICE_OUT_SPEAKER" on="true">
+        <Gain offset="0" threshold="-6553600" compress="1" ratio="65536" />
+        <Gain offset="0" threshold="-3932160" compress="1" ratio="65536" />
+        <Gain offset="0" threshold="-2621440" compress="1" ratio="65536" />
+        <Gain offset="0" threshold="-1966080" compress="1" ratio="65536" />
+        <AttackTime>2</AttackTime>
+        <ReleaseTime>400</ReleaseTime>
+    </AudioEffect>
+    <AudioEffect name="EQ" on="true" device="AUDIO_DEVICE_OUT_WIRED_HEADSET" sampleRate="44100">
+        <band desc="band2" on="false">
+            <Parameter>10892</Parameter>
+            <Parameter>-21783</Parameter>
+            <Parameter>10892</Parameter>
+            <Parameter>14</Parameter>
+            <Parameter>-19914</Parameter>
+            <Parameter>7268</Parameter>
+        </band>
+    </AudioEffect>
+    <AudioEffect name="EQ" on="true" device="AUDIO_DEVICE_OUT_WIRED_HEADPHONE" sampleRate="44100">
+        <band desc="band2" on="false">
+            <Parameter>10892</Parameter>
+            <Parameter>-21783</Parameter>
+            <Parameter>10892</Parameter>
+            <Parameter>14</Parameter>
+            <Parameter>-19914</Parameter>
+            <Parameter>7268</Parameter>
+        </band>
+    </AudioEffect>
+</AudioEffectConfiguration>
