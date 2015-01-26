@@ -1971,7 +1971,7 @@
 
     iget-object v3, v3, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
 
-    const v4, #android:string@heavy_weight_notification#t
+    const v4, 0x10403f0
 
     const/4 v5, 0x1
 
@@ -2005,7 +2005,7 @@
 
     .line 1180
     .local v32, notification:Landroid/app/Notification;
-    const v3, #android:drawable@stat_sys_adb#t
+    const v3, 0x1080558
 
     move-object/from16 v0, v32
 
@@ -2060,7 +2060,7 @@
 
     iget-object v3, v3, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
 
-    const v4, #android:string@heavy_weight_notification_detail#t
+    const v4, 0x10403f1
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2120,7 +2120,7 @@
 
     const/4 v14, 0x0
 
-    const v15, #android:string@heavy_weight_notification#t
+    const v15, 0x10403f0
 
     move-object/from16 v0, v43
 
@@ -2200,7 +2200,7 @@
 
     const/4 v4, 0x0
 
-    const v5, #android:string@heavy_weight_notification#t
+    const v5, 0x10403f0
 
     move-object/from16 v0, p1
 

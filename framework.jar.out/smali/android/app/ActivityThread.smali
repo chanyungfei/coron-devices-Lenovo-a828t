@@ -1309,7 +1309,7 @@
 
     .line 2895
     .local v3, res:Landroid/content/res/Resources;
-    const v6, #android:dimen@thumbnail_height#t
+    const v6, 0x1050001
 
     invoke-virtual {v3, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1318,7 +1318,7 @@
     .local v2, h:I
     iput v2, p0, Landroid/app/ActivityThread;->mThumbnailHeight:I
 
-    const v6, #android:dimen@thumbnail_width#t
+    const v6, 0x1050002
 
     invoke-virtual {v3, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

@@ -54,7 +54,7 @@
 
     invoke-direct {v0, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, #drawable@ic_dialog_alert#t
+    const v1, 0x1080027
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setIcon(I)Landroid/app/AlertDialog$Builder;
 
@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, #string@yes#t
+    const v1, 0x1040013
 
     new-instance v2, Lcom/android/server/power/ShutdownThread$BaiduInjector$1PositiveClickListener;
 
@@ -88,7 +88,7 @@
 
     move-result-object v0
 
-    const v1, #string@no#t
+    const v1, 0x1040009
 
     new-instance v2, Lcom/android/server/power/ShutdownThread$BaiduInjector$1NegativeClickListener;
 
@@ -130,7 +130,7 @@
     invoke-virtual {p1, v0}, Landroid/app/ProgressDialog;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 218
-    const v0, #string@reboot_progress#t
+    const v0, 0x104056f
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

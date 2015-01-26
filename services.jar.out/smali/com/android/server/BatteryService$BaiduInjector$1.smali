@@ -164,7 +164,7 @@
     invoke-virtual {v0, v1}, Landroid/app/Notification$Builder;->setContentText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
 
     .line 291
-    const v2, #android:drawable@stat_sys_warning#t
+    const v2, 0x108008a
 
     invoke-virtual {v0, v2}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
 

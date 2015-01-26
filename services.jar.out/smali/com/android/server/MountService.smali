@@ -3133,7 +3133,7 @@
     move-result-object v24
 
     .local v24, resources:Landroid/content/res/Resources;
-    const v19, #android:xml@storage_list#t
+    const v19, 0x10f000e
 
     .local v19, id:I
     move-object/from16 v0, v24
@@ -3742,7 +3742,7 @@
 
     if-eqz v3, :cond_9
 
-    const v4, #android:string@storage_external_sd_card#t
+    const v4, 0x10404f2
 
     :cond_8
     :goto_7
@@ -3772,7 +3772,7 @@
 
     .end local v2           #volume:Landroid/os/storage/StorageVolume;
     :cond_9
-    const v4, #android:string@storage_internal_sd_card#t
+    const v4, 0x10404f1
 
     goto :goto_7
 

@@ -585,15 +585,15 @@
     .locals 11
 
     .prologue
-    const v10, #android:string@progress_unmounting_Internal#t
+    const v10, 0x1040559
 
-    const v9, #android:string@media_checking#t
+    const v9, 0x10404ad
 
-    const v8, #android:string@progress_erasing#t
+    const v8, 0x10404aa
 
-    const v7, #android:string@progress_unmounting#t
+    const v7, 0x10404a9
 
-    const v6, #android:string@media_checking_Internal#t
+    const v6, 0x104055b
 
     .line 150
     iget-object v4, p0, Lcom/android/internal/os/storage/ExternalStorageFormatter;->mStorageVolume:Landroid/os/storage/StorageVolume;
@@ -841,7 +841,7 @@
     .end local v1           #extStoragePath:Ljava/lang/String;
     .end local v2           #mountService:Landroid/os/storage/IMountService;
     :cond_8
-    const v4, #android:string@progress_erasing_Internal#t
+    const v4, 0x104055a
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->updateProgressDialog(I)V
 
@@ -861,7 +861,7 @@
 
     if-eqz v4, :cond_a
 
-    const v4, #android:string@progress_erasing_Internal#t
+    const v4, 0x104055a
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->updateProgressDialog(I)V
 
@@ -905,7 +905,7 @@
 
     if-eqz v4, :cond_e
 
-    const v4, #android:string@media_bad_removal#t
+    const v4, 0x10404ac
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->fail(I)V
 
@@ -988,7 +988,7 @@
 
     if-eqz v4, :cond_13
 
-    const v4, #android:string@media_removed#t
+    const v4, 0x10404ae
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->fail(I)V
 
@@ -1003,14 +1003,14 @@
 
     if-eqz v4, :cond_14
 
-    const v4, #android:string@media_shared#t
+    const v4, 0x10404af
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->fail(I)V
 
     goto/16 :goto_3
 
     :cond_14
-    const v4, #android:string@media_unknown_state#t
+    const v4, 0x10404b0
 
     invoke-virtual {p0, v4}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->fail(I)V
 
@@ -1117,7 +1117,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, #string@progress_erasing#t
+    const v0, 0x10404aa
 
     invoke-virtual {p0, v0}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->updateProgressDialog(I)V
 
@@ -1159,7 +1159,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, #string@progress_unmounting#t
+    const v0, 0x10404a9
 
     invoke-virtual {p0, v0}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->updateProgressDialog(I)V
 

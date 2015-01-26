@@ -152,7 +152,7 @@
 
     .line 315
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v1, #android:drawable@stat_sys_warning#t
+    const v1, 0x108008a
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setIcon(I)Landroid/app/AlertDialog$Builder;
 

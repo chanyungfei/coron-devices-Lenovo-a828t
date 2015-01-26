@@ -480,7 +480,7 @@
 
     move-result-object v20
 
-    const v21, #attr@actionBarSize#t
+    const v21, 0x10102eb
 
     const/16 v22, 0x1
 
@@ -1639,7 +1639,7 @@
 
     iget-object v3, p0, Landroid/widget/Editor$BaiduActionPopupWindow;->mSearchTextView:Landroid/widget/TextView;
 
-    const v4, #android:string@websearch#t
+    const v4, 0x10404b3
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1667,7 +1667,7 @@
 
     iget-object v3, p0, Landroid/widget/Editor$BaiduActionPopupWindow;->mPasteTextView:Landroid/widget/TextView;
 
-    const v4, #android:string@paste#t
+    const v4, 0x104000b
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1695,7 +1695,7 @@
 
     iget-object v3, p0, Landroid/widget/Editor$BaiduActionPopupWindow;->mReplaceTextView:Landroid/widget/TextView;
 
-    const v4, #android:string@replace#t
+    const v4, 0x10403c6
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1792,7 +1792,7 @@
 
     move-result-object v3
 
-    const v4, #android:id@paste#t
+    const v4, 0x1020022
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->onTextContextMenuItem(I)Z
 

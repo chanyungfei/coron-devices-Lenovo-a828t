@@ -2827,7 +2827,7 @@
 
     .line 508
     .local v0, resources:Landroid/content/res/Resources;
-    const v1, #android:bool@config_unplugTurnsOnScreen#t
+    const v1, 0x111001a
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -2835,7 +2835,7 @@
 
     iput-boolean v1, p0, Lcom/android/server/power/PowerManagerService;->mWakeUpWhenPluggedOrUnpluggedConfig:Z
 
-    const v1, #android:bool@config_dreamsSupported#t
+    const v1, 0x111003f
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -2843,7 +2843,7 @@
 
     iput-boolean v1, p0, Lcom/android/server/power/PowerManagerService;->mDreamsSupportedConfig:Z
 
-    const v1, #android:bool@config_dreamsEnabledByDefault#t
+    const v1, 0x1110040
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -2851,7 +2851,7 @@
 
     iput-boolean v1, p0, Lcom/android/server/power/PowerManagerService;->mDreamsEnabledByDefaultConfig:Z
 
-    const v1, #android:bool@config_dreamsActivatedOnSleepByDefault#t
+    const v1, 0x1110042
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -2859,7 +2859,7 @@
 
     iput-boolean v1, p0, Lcom/android/server/power/PowerManagerService;->mDreamsActivatedOnSleepByDefaultConfig:Z
 
-    const v1, #android:bool@config_dreamsActivatedOnDockByDefault#t
+    const v1, 0x1110041
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 

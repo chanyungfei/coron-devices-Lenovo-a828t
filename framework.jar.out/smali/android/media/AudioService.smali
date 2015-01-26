@@ -882,7 +882,7 @@
 
     move-result-object v0
 
-    const v1, #android:bool@config_voice_capable#t
+    const v1, 0x111002f
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -935,7 +935,7 @@
 
     move-result-object v0
 
-    const v1, #android:integer@config_soundEffectVolumeDb#t
+    const v1, 0x10e001a
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -961,7 +961,7 @@
 
     move-result-object v0
 
-    const v1, #android:bool@config_camera_sound_forced#t
+    const v1, 0x1110049
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1154,7 +1154,7 @@
 
     move-result-object v0
 
-    const v1, #android:bool@config_useMasterVolume#t
+    const v1, 0x1110010
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1170,7 +1170,7 @@
 
     move-result-object v0
 
-    const v1, #android:array@config_masterVolumeRamp#t
+    const v1, 0x1070016
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -6452,7 +6452,7 @@
 
     move-result-object v0
 
-    const v1, #android:bool@config_camera_sound_forced#t
+    const v1, 0x1110049
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -7127,7 +7127,7 @@
 
     move-result-object v1
 
-    const v2, #android:integer@max_stream_voice_call#t
+    const v2, 0x10e000f
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7171,7 +7171,7 @@
 
     move-result-object v1
 
-    const v2, #android:integer@max_stream_system#t
+    const v2, 0x10e0010
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7190,7 +7190,7 @@
 
     move-result-object v2
 
-    const v3, #android:integer@max_stream_ring#t
+    const v3, 0x10e0011
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7209,7 +7209,7 @@
 
     move-result-object v2
 
-    const v3, #android:integer@max_stream_music#t
+    const v3, 0x10e0012
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7228,7 +7228,7 @@
 
     move-result-object v2
 
-    const v3, #android:integer@max_stream_alarm#t
+    const v3, 0x10e0013
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7247,7 +7247,7 @@
 
     move-result-object v2
 
-    const v3, #android:integer@max_stream_notification#t
+    const v3, 0x10e0014
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7266,7 +7266,7 @@
 
     move-result-object v2
 
-    const v3, #android:integer@max_stream_bluetooth_sco#t
+    const v3, 0x10e0015
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7285,7 +7285,7 @@
 
     move-result-object v2
 
-    const v3, #android:integer@max_stream_enforced#t
+    const v3, 0x10e0016
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7304,7 +7304,7 @@
 
     move-result-object v2
 
-    const v3, #android:integer@max_stream_dtmf#t
+    const v3, 0x10e0017
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7323,7 +7323,7 @@
 
     move-result-object v2
 
-    const v3, #android:integer@max_stream_tts#t
+    const v3, 0x10e0018
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7342,7 +7342,7 @@
 
     move-result-object v2
 
-    const v3, #android:integer@max_stream_fm#t
+    const v3, 0x10e0019
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7728,7 +7728,7 @@
 
     move-result-object v2
 
-    const v4, #android:integer@config_safe_media_volume_index#t
+    const v4, 0x10e0054
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -7745,7 +7745,7 @@
 
     move-result-object v2
 
-    const v4, #android:bool@config_safe_media_volume_enabled#t
+    const v4, 0x1110047
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -13249,7 +13249,7 @@
     :cond_0
     if-eqz v3, :cond_1
 
-    const/high16 v4, #android:drawable@alert_dark_frame#h0
+    const/high16 v4, 0x1080
 
     :try_start_0
     invoke-virtual {v3, v4}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;

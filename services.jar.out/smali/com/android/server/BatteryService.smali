@@ -226,7 +226,7 @@
 
     move-result-object v0
 
-    const v1, #android:integer@config_veryLowBatteryWarningLevel#t
+    const v1, 0x10e0030
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -241,7 +241,7 @@
 
     move-result-object v0
 
-    const v1, #android:integer@config_criticalBatteryWarningLevel#t
+    const v1, 0x10e0031
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -256,7 +256,7 @@
 
     move-result-object v0
 
-    const v1, #android:integer@config_lowBatteryWarningLevel#t
+    const v1, 0x10e0033
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -271,7 +271,7 @@
 
     move-result-object v0
 
-    const v1, #android:integer@config_shutdownDelay#t
+    const v1, 0x10e0035
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -286,7 +286,7 @@
 
     move-result-object v0
 
-    const v1, #android:integer@config_lowBatteryCloseWarningLevel#t
+    const v1, 0x10e0036
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -301,7 +301,7 @@
 
     move-result-object v0
 
-    const v1, #android:integer@config_shutdownBatteryTemperature#t
+    const v1, 0x10e0032
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -464,9 +464,9 @@
     .parameter "level"
 
     .prologue
-    const v0, #android:drawable@stat_sys_battery_charge#t
+    const v0, 0x1080567
 
-    const v1, #android:drawable@stat_sys_battery#t
+    const v1, 0x1080559
 
     .line 639
     iget v2, p0, Lcom/android/server/BatteryService;->mBatteryStatus:I
@@ -531,7 +531,7 @@
 
     .line 652
     :cond_5
-    const v0, #android:drawable@stat_sys_battery_unknown#t
+    const v0, 0x1080575
 
     goto :goto_0
 .end method

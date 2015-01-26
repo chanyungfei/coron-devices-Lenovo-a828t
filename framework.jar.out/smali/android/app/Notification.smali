@@ -902,9 +902,9 @@
     .end annotation
 
     .prologue
-    const v6, #android:id@time#t
+    const v6, 0x1020064
 
-    const v4, #android:id@icon#t
+    const v4, 0x1020006
 
     .line 821
     new-instance v0, Landroid/widget/RemoteViews;
@@ -913,7 +913,7 @@
 
     move-result-object v2
 
-    const v3, #android:layout@notification_template_base#t
+    const v3, 0x109008e
 
     invoke-direct {v0, v2, v3}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -938,29 +938,29 @@
 
     const-string v2, "setBackgroundResource"
 
-    const v3, #android:drawable@notification_template_icon_low_bg#t
+    const v3, 0x108064d
 
     invoke-virtual {v0, v4, v2, v3}, Landroid/widget/RemoteViews;->setInt(ILjava/lang/String;I)V
 
-    const v2, #android:id@status_bar_latest_event_content#t
+    const v2, 0x1020323
 
     const-string v3, "setBackgroundResource"
 
-    const v4, #android:drawable@notification_bg_low#t
+    const v4, 0x1080450
 
     invoke-virtual {v0, v2, v3, v4}, Landroid/widget/RemoteViews;->setInt(ILjava/lang/String;I)V
 
     :cond_1
     if-eqz p2, :cond_2
 
-    const v2, #android:id@title#t
+    const v2, 0x1020016
 
     invoke-virtual {v0, v2, p2}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
     :cond_2
     if-eqz p3, :cond_3
 
-    const v2, #android:id@text#t
+    const v2, 0x1020046
 
     invoke-virtual {v0, v2, p3}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
@@ -998,7 +998,7 @@
 
     .line 844
     .local v1, f:Ljava/text/NumberFormat;
-    const v2, #android:id@info#t
+    const v2, 0x1020327
 
     iget v3, p0, Landroid/app/Notification;->number:I
 

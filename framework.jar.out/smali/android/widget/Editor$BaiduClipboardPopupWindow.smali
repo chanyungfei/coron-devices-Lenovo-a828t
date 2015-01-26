@@ -256,7 +256,7 @@
 
     const/4 v2, 0x0
 
-    const v3, #android:attr@textSelectHandleWindowStyle#t
+    const v3, 0x10102c8
 
     invoke-direct {v0, v1, v2, v3}, Landroid/widget/PopupWindow;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 

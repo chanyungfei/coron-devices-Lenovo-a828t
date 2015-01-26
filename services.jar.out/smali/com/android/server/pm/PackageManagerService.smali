@@ -15919,7 +15919,7 @@
 
     iget-object v3, v0, Lcom/android/server/pm/PackageManagerService;->mResolveActivity:Landroid/content/pm/ActivityInfo;
 
-    const v10, #style@Theme.DeviceDefault.Light.Dialog.Alert#t
+    const v10, 0x1030316
 
     iput v10, v3, Landroid/content/pm/ActivityInfo;->theme:I
 
@@ -34724,7 +34724,7 @@
 
     move-result-object v5
 
-    const v6, #android:string@android_upgrading_apk#t
+    const v6, 0x10403ed
 
     const/4 v7, 0x2
 

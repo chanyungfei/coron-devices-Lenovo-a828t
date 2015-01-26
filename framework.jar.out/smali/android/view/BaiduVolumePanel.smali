@@ -186,7 +186,7 @@
 
     move-result-object v11
 
-    const v13, #bool@config_voice_capable#t
+    const v13, 0x111002f
 
     invoke-virtual {v11, v13}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -239,7 +239,7 @@
     iput v9, v6, Landroid/view/VolumePanel$StreamControl;->streamType:I
 
     .line 120
-    const v11, #layout@volume_adjust_item#t
+    const v11, 0x10900e3
 
     const/4 v13, 0x0
 
@@ -259,7 +259,7 @@
     .line 122
     iget-object v11, v6, Landroid/view/VolumePanel$StreamControl;->group:Landroid/view/ViewGroup;
 
-    const v13, #id@stream_icon#t
+    const v13, 0x10203a6
 
     invoke-virtual {v11, v13}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -305,7 +305,7 @@
     .line 128
     iget-object v11, v6, Landroid/view/VolumePanel$StreamControl;->group:Landroid/view/ViewGroup;
 
-    const v13, #id@seekbar#t
+    const v13, 0x1020347
 
     invoke-virtual {v11, v13}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -318,7 +318,7 @@
     .line 129
     iget-object v11, v6, Landroid/view/VolumePanel$StreamControl;->group:Landroid/view/ViewGroup;
 
-    const v13, #id@title#t
+    const v13, 0x1020016
 
     invoke-virtual {v11, v13}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

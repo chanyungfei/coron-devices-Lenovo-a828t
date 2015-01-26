@@ -13072,7 +13072,7 @@
     .local v0, h:I
     if-gez v2, :cond_2
 
-    const v4, #android:dimen@thumbnail_width#t
+    const v4, 0x1050002
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -13080,7 +13080,7 @@
 
     iput v2, p0, Lcom/android/server/am/ActivityStack;->mThumbnailWidth:I
 
-    const v4, #android:dimen@thumbnail_height#t
+    const v4, 0x1050001
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

@@ -242,7 +242,7 @@
 
     .line 126
     .local v6, actualTitle:Ljava/lang/String;
-    const v1, #android:string@ringtone_default_with_actual#t
+    const v1, 0x1040409
 
     new-array v2, v11, [Ljava/lang/Object;
 
@@ -260,7 +260,7 @@
     :goto_0
     if-nez v10, :cond_1
 
-    const v1, #android:string@ringtone_unknown#t
+    const v1, 0x104040c
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

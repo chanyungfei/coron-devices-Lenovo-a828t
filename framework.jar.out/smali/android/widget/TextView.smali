@@ -37,13 +37,13 @@
 
 .field private static final EMS:I = 0x1
 
-.field static final ID_COPY:I = #android:id@copy#t
+.field static final ID_COPY:I = 0x1020021
 
-.field static final ID_CUT:I = #android:id@cut#t
+.field static final ID_CUT:I = 0x1020020
 
-.field static final ID_PASTE:I = #android:id@paste#t
+.field static final ID_PASTE:I = 0x1020022
 
-.field static final ID_SELECT_ALL:I = #android:id@selectAll#t
+.field static final ID_SELECT_ALL:I = 0x102001f
 
 .field static LAST_CUT_OR_COPY_TIME:J = 0x0L
 
@@ -284,7 +284,7 @@
     .line 263
     new-array v1, v4, [I
 
-    const v2, #android:attr@state_multiline#t
+    const v2, 0x101034d
 
     aput v2, v1, v3
 
@@ -334,7 +334,7 @@
     .parameter "attrs"
 
     .prologue
-    const v0, #android:attr@textViewStyle#t
+    const v0, 0x1010084
 
     invoke-direct {p0, p1, p2, v0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -17683,7 +17683,7 @@
 
     aget v4, v0, v1
 
-    const v5, #android:attr@state_pressed#t
+    const v5, 0x10100a7
 
     if-ne v4, v5, :cond_1
 
@@ -20026,7 +20026,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, #android:id@selectAll#t
+    const v1, 0x102001f
 
     invoke-virtual {p0, v1}, Landroid/widget/TextView;->onTextContextMenuItem(I)Z
 
@@ -20042,7 +20042,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, #android:id@cut#t
+    const v1, 0x1020020
 
     invoke-virtual {p0, v1}, Landroid/widget/TextView;->onTextContextMenuItem(I)Z
 
@@ -20058,7 +20058,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, #android:id@copy#t
+    const v1, 0x1020021
 
     invoke-virtual {p0, v1}, Landroid/widget/TextView;->onTextContextMenuItem(I)Z
 
@@ -20074,7 +20074,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, #android:id@paste#t
+    const v1, 0x1020022
 
     invoke-virtual {p0, v1}, Landroid/widget/TextView;->onTextContextMenuItem(I)Z
 
@@ -22425,7 +22425,7 @@
 
     .line 7897
     :pswitch_data_0
-    .packed-switch #android:id@selectAll#t
+    .packed-switch 0x102001f
         :pswitch_0
         :pswitch_2
         :pswitch_3
@@ -25014,7 +25014,7 @@
 
     move-result-object v1
 
-    const v2, #android:drawable@indicator_input_error#t
+    const v2, 0x10803ad
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

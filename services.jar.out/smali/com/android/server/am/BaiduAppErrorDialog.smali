@@ -82,7 +82,7 @@
     if-eqz v1, :cond_1
 
     .line 54
-    const v3, #string@aerr_application#t
+    const v3, 0x10403d9
 
     const/4 v4, 0x2
 
@@ -113,7 +113,7 @@
     .line 66
     const/4 v3, -0x2
 
-    const v4, #string@force_close#t
+    const v4, 0x10403e0
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -130,7 +130,7 @@
     .line 71
     const/4 v3, -0x1
 
-    const v4, #string@report#t
+    const v4, 0x10403e1
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -145,7 +145,7 @@
     invoke-virtual {p0, v3, v4, v5}, Lcom/android/server/am/BaiduAppErrorDialog;->setButton(ILjava/lang/CharSequence;Landroid/os/Message;)V
 
     .line 76
-    const v3, #string@aerr_title#t
+    const v3, 0x10403d8
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -250,7 +250,7 @@
 
     .line 59
     .restart local v1       #name:Ljava/lang/CharSequence;
-    const v3, #string@aerr_process#t
+    const v3, 0x10403da
 
     new-array v4, v7, [Ljava/lang/Object;
 

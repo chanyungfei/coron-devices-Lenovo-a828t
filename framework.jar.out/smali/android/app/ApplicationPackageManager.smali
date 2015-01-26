@@ -1630,7 +1630,7 @@
 
     move-result-object v0
 
-    const v1, #android:drawable@sym_def_app_icon#t
+    const v1, 0x1080093
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

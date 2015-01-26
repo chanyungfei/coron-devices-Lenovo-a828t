@@ -959,11 +959,11 @@
     .parameter "targetSdkVersion"
 
     .prologue
-    const v0, #android:style@Theme#t
+    const v0, 0x1030005
 
-    const v1, #android:style@Theme.Holo#t
+    const v1, 0x103006b
 
-    const v2, #android:style@Theme.DeviceDefault#t
+    const v2, 0x1030128
 
     invoke-static {p0, p1, v0, v1, v2}, Landroid/content/res/Resources;->selectSystemTheme(IIIII)I
 

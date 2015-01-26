@@ -18,7 +18,7 @@
 
 
 # static fields
-.field private static final POPUP_TEXT_LAYOUT:I = #android:layout@text_edit_action_popup_text#t
+.field private static final POPUP_TEXT_LAYOUT:I = 0x10900d3
 
 
 # instance fields
@@ -174,7 +174,7 @@
 
     const/4 v2, 0x0
 
-    const v3, #android:attr@textSelectHandleWindowStyle#t
+    const v3, 0x10102c8
 
     invoke-direct {v0, v1, v2, v3}, Landroid/widget/PopupWindow;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -263,7 +263,7 @@
     .prologue
     const/4 v7, 0x0
 
-    const v6, #android:layout@text_edit_action_popup_text#t
+    const v6, 0x10900d3
 
     const/4 v5, -0x2
 
@@ -292,7 +292,7 @@
 
     iget-object v3, p0, Landroid/widget/Editor$PinnedPopupWindow;->mContentView:Landroid/view/ViewGroup;
 
-    const v4, #android:drawable@text_edit_paste_window#t
+    const v4, 0x10805f9
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -343,7 +343,7 @@
 
     iget-object v3, p0, Landroid/widget/Editor$ActionPopupWindow;->mPasteTextView:Landroid/widget/TextView;
 
-    const v4, #android:string@paste#t
+    const v4, 0x104000b
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -371,7 +371,7 @@
 
     iget-object v3, p0, Landroid/widget/Editor$ActionPopupWindow;->mReplaceTextView:Landroid/widget/TextView;
 
-    const v4, #android:string@replace#t
+    const v4, 0x10403c6
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -413,7 +413,7 @@
 
     move-result-object v1
 
-    const v2, #android:id@paste#t
+    const v2, 0x1020022
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->onTextContextMenuItem(I)Z
 

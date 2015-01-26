@@ -474,7 +474,7 @@
     .end annotation
 
     .prologue
-    const v0, #android:drawable@default_wallpaper#t
+    const v0, 0x1080246
 
     invoke-virtual {p0, v0}, Landroid/app/WallpaperManager;->setResource(I)V
 

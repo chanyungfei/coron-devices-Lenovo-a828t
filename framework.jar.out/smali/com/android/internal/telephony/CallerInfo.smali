@@ -1038,7 +1038,7 @@
     .parameter "number"
 
     .prologue
-    const v0, #android:string@emergency_call_dialog_number_for_display#t
+    const v0, 0x10402ea
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1048,7 +1048,7 @@
 
     iput-object p2, p0, Lcom/android/internal/telephony/CallerInfo;->phoneNumber:Ljava/lang/String;
 
-    const v0, #android:drawable@picture_emergency#t
+    const v0, 0x1080490
 
     iput v0, p0, Lcom/android/internal/telephony/CallerInfo;->photoResource:I
 

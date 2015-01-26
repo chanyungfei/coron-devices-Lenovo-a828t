@@ -189,7 +189,7 @@
     .line 178
     sget-object v2, Lcom/android/internal/R$styleable;->ActionBar:[I
 
-    const v3, #android:attr@actionBarStyle#t
+    const v3, 0x10102ce
 
     const/4 v4, 0x0
 
@@ -394,7 +394,7 @@
     .local v14, inflater:Landroid/view/LayoutInflater;
     const/16 v2, 0xf
 
-    const v3, #android:layout@action_bar_home#t
+    const v3, 0x1090018
 
     invoke-virtual {v9, v2, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -460,7 +460,7 @@
 
     move-result-object v3
 
-    const v4, #android:string@action_bar_up_description#t
+    const v4, 0x10404ed
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -625,7 +625,7 @@
 
     const/4 v4, 0x0
 
-    const v5, #android:id@home#t
+    const v5, 0x102002c
 
     const/4 v6, 0x0
 
@@ -971,7 +971,7 @@
 
     .line 772
     .local v1, inflater:Landroid/view/LayoutInflater;
-    const v4, #android:layout@action_bar_title_item#t
+    const v4, 0x1090019
 
     invoke-virtual {v1, v4, p0, v6}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -984,7 +984,7 @@
     .line 774
     iget-object v4, p0, Lcom/android/internal/widget/ActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
 
-    const v8, #android:id@action_bar_title#t
+    const v8, 0x102024d
 
     invoke-virtual {v4, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -997,7 +997,7 @@
     .line 775
     iget-object v4, p0, Lcom/android/internal/widget/ActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
 
-    const v8, #android:id@action_bar_subtitle#t
+    const v8, 0x102024e
 
     invoke-virtual {v4, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1010,7 +1010,7 @@
     .line 776
     iget-object v4, p0, Lcom/android/internal/widget/ActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
 
-    const v8, #android:id@up#t
+    const v8, 0x1020246
 
     invoke-virtual {v4, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1541,7 +1541,7 @@
 
     iget-object v0, p0, Lcom/android/internal/widget/ActionBarView;->mIndeterminateProgressView:Landroid/widget/ProgressBar;
 
-    const v1, #android:id@progress_circular#t
+    const v1, 0x1020357
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setId(I)V
 
@@ -1579,7 +1579,7 @@
 
     iget-object v0, p0, Lcom/android/internal/widget/ActionBarView;->mProgressView:Landroid/widget/ProgressBar;
 
-    const v1, #android:id@progress_horizontal#t
+    const v1, 0x1020358
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setId(I)V
 
@@ -5077,7 +5077,7 @@
 
     move-result-object v7
 
-    const v8, #android:string@action_bar_up_description#t
+    const v8, 0x10404ed
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -5097,7 +5097,7 @@
 
     move-result-object v7
 
-    const v8, #android:string@action_bar_home_description#t
+    const v8, 0x10404ec
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -5283,7 +5283,7 @@
 
     move-result-object v1
 
-    const v2, #android:string@action_bar_up_description#t
+    const v2, 0x10404ed
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -5303,7 +5303,7 @@
 
     move-result-object v1
 
-    const v2, #android:string@action_bar_home_description#t
+    const v2, 0x10404ec
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -5533,7 +5533,7 @@
 
     iget-object v4, p0, Lcom/android/internal/widget/AbsActionBarView;->mActionMenuPresenter:Lcom/android/internal/view/menu/ActionMenuPresenter;
 
-    const v5, #android:id@action_menu_presenter#t
+    const v5, 0x102024a
 
     invoke-virtual {v4, v5}, Lcom/android/internal/view/menu/BaseMenuPresenter;->setId(I)V
 
@@ -5566,7 +5566,7 @@
 
     move-result-object v5
 
-    const v6, #android:bool@action_bar_expanded_action_views_exclusive#t
+    const v6, 0x1110009
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -5788,7 +5788,7 @@
 
     iget-object v3, p0, Landroid/view/View;->mContext:Landroid/content/Context;
 
-    const v4, #android:attr@actionDropDownStyle#t
+    const v4, 0x10102d7
 
     invoke-direct {v2, v3, v5, v4}, Landroid/widget/Spinner;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -5799,7 +5799,7 @@
 
     iget-object v3, p0, Landroid/view/View;->mContext:Landroid/content/Context;
 
-    const v4, #android:attr@actionBarTabBarStyle#t
+    const v4, 0x10102f4
 
     invoke-direct {v2, v3, v5, v4}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -5998,7 +5998,7 @@
 
     move-result-object v2
 
-    const v3, #android:bool@action_bar_expanded_action_views_exclusive#t
+    const v3, 0x1110009
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getBoolean(I)Z
 
