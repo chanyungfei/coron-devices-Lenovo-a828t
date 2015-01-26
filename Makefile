@@ -105,7 +105,7 @@ vendor_modify_jars := android.policy framework pm services telephony-common
 # The command idtoname how to use: first use "apktool d source/system/framework/framework-res.apk other/TMP/framework-res",
 # and then use "idtoname other/TMP/framework-res/res/values/public_master.xml XXXX/smali"(XXXX is the directory where you decode baidu system apk).
 #-----------------------------------------------------------------------------
-baidu_modify_apps := Phone SettingsProvider
+baidu_modify_apps := Phone SettingsProvider Settings
 
 ##############################################################################
 # The value decides which jar you want to modify, when the jar is based on the baidu framework jar.
@@ -145,6 +145,7 @@ override_property += \
 # The default value is Coron.
 # You should configure the property according to your ID, ie, replace "Coron" with your ID.
 override_property += \
+    ro.baidu.default_write.settable=true \
     ro.baidu.romer=Po_Chan \
     ro.baidu.romerinfo=http://www.weibo.com/pochanL \
 
