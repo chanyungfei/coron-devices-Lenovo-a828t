@@ -632,14 +632,27 @@
 .end method
 
 .method public static makeDefaultPhones(Landroid/content/Context;)V
-    .locals 0
+    .locals 3
     .parameter "context"
 
     .prologue
-    .line 59
+    .line 61
     invoke-static {p0}, Lcom/android/internal/telephony/PhoneFactory;->makeDefaultPhone(Landroid/content/Context;)V
 
-    .line 60
+    .line 64
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v0
+
+    .line 65
+    .local v0, cr:Landroid/content/ContentResolver;
+    const-string v1, "current_data_network"
+
+    const/4 v2, 0x0
+
+    invoke-static {v0, v1, v2}, Landroid/provider/Settings$System;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
+
+    .line 68
     return-void
 .end method
 
