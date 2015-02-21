@@ -335,6 +335,143 @@
     return-void
 .end method
 
+
+.method private static killTask(Lcom/android/internal/policy/impl/PhoneWindowManager;Lcom/android/internal/policy/impl/PhoneWindowManager$BaiduInjector$TaskDescription;)V
+    .locals 9
+    .parameter "phoneWindowManager"
+    .parameter "task"
+
+    .prologue
+    .line 4821
+    if-eqz p1, :cond_1
+
+    .line 4822
+    iget-object v6, p1, Lcom/android/internal/policy/impl/PhoneWindowManager$BaiduInjector$TaskDescription;->intent:Landroid/content/Intent;
+
+    iget-object v7, p1, Lcom/android/internal/policy/impl/PhoneWindowManager$BaiduInjector$TaskDescription;->intent:Landroid/content/Intent;
+
+    invoke-virtual {v7}, Landroid/content/Intent;->getFlags()I
+
+    move-result v7
+
+    const v8, -0x200001
+
+    and-int/2addr v7, v8
+
+    const/high16 v8, 0x1000
+
+    or-int/2addr v7, v8
+
+    invoke-virtual {v6, v7}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+
+    .line 4823
+    iget-object v6, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v6}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+
+    move-result-object v3
+
+    .line 4824
+    .local v3, pm:Landroid/content/pm/PackageManager;
+    iget-object v6, p1, Lcom/android/internal/policy/impl/PhoneWindowManager$BaiduInjector$TaskDescription;->intent:Landroid/content/Intent;
+
+    const/4 v7, 0x0
+
+    invoke-virtual {v3, v6, v7}, Landroid/content/pm/PackageManager;->resolveActivity(Landroid/content/Intent;I)Landroid/content/pm/ResolveInfo;
+
+    move-result-object v4
+
+    .line 4825
+    .local v4, resolveInfo:Landroid/content/pm/ResolveInfo;
+    if-eqz v4, :cond_0
+
+    .line 4826
+    iget-object v1, v4, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
+
+    .line 4827
+    .local v1, info:Landroid/content/pm/ActivityInfo;
+    invoke-virtual {v1, v3}, Landroid/content/pm/ActivityInfo;->loadLabel(Landroid/content/pm/PackageManager;)Ljava/lang/CharSequence;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v5
+
+    .line 4828
+    .local v5, title:Ljava/lang/String;
+    new-instance v2, Landroid/content/Intent;
+
+    const-string v6, "com.baidu.killme"
+
+    invoke-direct {v2, v6}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    .line 4829
+    .local v2, notificationIntent:Landroid/content/Intent;
+    const-string v6, "title"
+
+    invoke-virtual {v2, v6, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
+    .line 4830
+    iget-object v6, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v6, v2}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+
+    .line 4832
+    .end local v1           #info:Landroid/content/pm/ActivityInfo;
+    .end local v2           #notificationIntent:Landroid/content/Intent;
+    .end local v5           #title:Ljava/lang/String;
+    :cond_0
+    iget-object v6, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+
+    const-string v7, "activity"
+
+    invoke-virtual {v6, v7}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/app/ActivityManager;
+
+    .line 4833
+    .local v0, am:Landroid/app/ActivityManager;
+    iget v6, p1, Lcom/android/internal/policy/impl/PhoneWindowManager$BaiduInjector$TaskDescription;->id:I
+
+    const/4 v7, 0x1
+
+    invoke-virtual {v0, v6, v7}, Landroid/app/ActivityManager;->removeTask(II)Z
+
+    .line 4835
+    :try_start_0
+    iget-object v6, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
+
+    invoke-static {v6}, Lcom/baidu/security/sysop/YiProcessManager;->getInstance(Landroid/content/Context;)Lcom/baidu/security/sysop/YiProcessManager;
+
+    move-result-object v6
+
+    iget-object v7, p1, Lcom/android/internal/policy/impl/PhoneWindowManager$BaiduInjector$TaskDescription;->packageName:Ljava/lang/String;
+
+    invoke-virtual {v6, v7}, Lcom/baidu/security/sysop/YiProcessManager;->cleanApp(Ljava/lang/String;)Z
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 4839
+    .end local v0           #am:Landroid/app/ActivityManager;
+    .end local v3           #pm:Landroid/content/pm/PackageManager;
+    .end local v4           #resolveInfo:Landroid/content/pm/ResolveInfo;
+    :cond_1
+    :goto_0
+    return-void
+
+    .line 4836
+    .restart local v0       #am:Landroid/app/ActivityManager;
+    .restart local v3       #pm:Landroid/content/pm/PackageManager;
+    .restart local v4       #resolveInfo:Landroid/content/pm/ResolveInfo;
+    :catch_0
+    move-exception v6
+
+    goto :goto_0
+.end method
+
 .method public static removeViewImmediate()V
     .locals 5
 
