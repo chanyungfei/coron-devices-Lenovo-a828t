@@ -149,6 +149,11 @@ override_property += \
     ro.baidu.romer=Po_Chan \
     ro.baidu.romerinfo=http://www.weibo.com/pochanL \
 
+override_property += \
+    romjd.rom.id=fd84bcc8-949f-47ac-be97-356412ad7061 \
+    romjd.rom.version=baidurom67 \
+    romjd.rom.version.code=1 \
+
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
 # The default value is nothing.
