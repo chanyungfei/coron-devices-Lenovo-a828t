@@ -93,7 +93,7 @@ vendor_modify_jars := android.policy framework pm services telephony-common
 # The default value is nothing.
 # You can configure the baidu system apk name in the value.
 #-----------------------------------------------------------------------------
-baidu_remove_apps := BaiduAppSearch BaiduBrowser BaiduMap BaiduUpdate
+baidu_remove_apps := BaiduAppSearch BaiduBrowser BaiduMap BaiduUpdate HomePro YiYueDu
 
 ##############################################################################
 # The value decides which apk you want to modify, when the apk is based on the baidu system apk.
@@ -153,6 +153,7 @@ override_property += \
     romjd.rom.id=fd84bcc8-949f-47ac-be97-356412ad7061 \
     romjd.rom.version=baidurom67 \
     romjd.rom.version.code=1 \
+    romjd.cp.list=com.chaozh.iReaderFree:98127D058CBD88018F3ADA43D37C5585 \
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
