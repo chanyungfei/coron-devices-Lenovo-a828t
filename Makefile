@@ -93,7 +93,7 @@ vendor_modify_jars := android.policy framework pm services telephony-common
 # The default value is nothing.
 # You can configure the baidu system apk name in the value.
 #-----------------------------------------------------------------------------
-baidu_remove_apps := BaiduInput BaiduAppSearch BaiduBrowser BaiduMap BaiduUpdate
+baidu_remove_apps := BaiduAppSearch BaiduBrowser BaiduMap BaiduUpdate
 
 ##############################################################################
 # The value decides which apk you want to modify, when the apk is based on the baidu system apk.
